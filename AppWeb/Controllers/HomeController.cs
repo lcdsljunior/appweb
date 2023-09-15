@@ -16,6 +16,7 @@ namespace AppWeb.Controllers
         public IActionResult Index()
         {
             ViewData["Email"] = "luiz.carlos@nubus.com.br";
+            ViewData["Nome"] = "Yasmin Noeli Santos Ramos";
             return View();
         }
 
